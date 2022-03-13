@@ -4,7 +4,7 @@ export default function Card(props) {
   return (
     <div className="bg-white px-2 py-2 border m-6 border-gray-200 rounded-md shadow-md sm:px-6">
       <div className="flex flex-col flex-wrap sm:flex-nowrap">
-        <div className="bg-fuchsia-900 text-white font-bold text-xs py-4 px-3 w-fit rounded-full absolute top-20 right-3">NEU</div>
+        <div className="bg-fuchsia-900 text-white font-bold text-xs py-4 px-3 w-fit rounded-full absolute top-32 right-3">NEU</div>
         <div className="my-2 col">
           <h3 className="text-lg leading-6 font-bold text-gray-900">
             Willkommenspaket im Dezember

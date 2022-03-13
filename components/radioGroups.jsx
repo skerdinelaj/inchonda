@@ -16,7 +16,7 @@ export default function RadioGroups () {
   const [selected, setSelected] = useState(plans[0])
 
   return (
-    <RadioGroup value={selected} onChange={setSelected} className="m-6">
+    <RadioGroup value={selected} onChange={setSelected} className="mb-6 mt-3 ml-6 mr-6">
       <div className="relative bg-white rounded-md">
         {plans.map((plan) => (
           <RadioGroup.Option

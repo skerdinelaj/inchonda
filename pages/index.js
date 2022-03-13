@@ -10,8 +10,11 @@ export default function Home() {
     router.push("/page1");
   };
   return (
-    <div>
-      <Navbar></Navbar>
+    <div>      
+      <Navbar visibleB={false} visibleH={true}></Navbar>
+      <div className='flex justify-center my-5 px-5'>
+        <h1 className='font-semibold text-xl'>Der Berliner Pflegedienst mit Durchblik und Expertise</h1>
+      </div>      
       <TextBox text="Postleitzahl eingeben"></TextBox>
       <Button name="Angedote ansehen" handleClick={handleClick}></Button>
     </div>
